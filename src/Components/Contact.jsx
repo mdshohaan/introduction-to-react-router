@@ -1,9 +1,10 @@
-import React from 'react';
+
 
 const Contact = () => {
     return (
         <div>
-            <h2>contact us</h2>
+            <h2>Contact us</h2>
+            <p>We are call away</p>
         </div>
     );
 };

@@ -6,7 +6,7 @@ const PostDetails = () => {
     const {id,title,body} = post
     return (
         <div>
-            <h3>Post Detail About{id}</h3>
+            <h3>Post Details About:{id}</h3>
             <p>Title:{title}</p>
             <p>{body}</p>
         </div>
