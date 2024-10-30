@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact";
+import ErrorPgae from "./Components/ErrorPgae";
 import Home from "./Components/Home/Home";
 import PostDetails from "./Components/PostDetails";
 import Posts from "./Components/Posts";
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPgae></ErrorPgae>,
     children: [
       {
         path: "/about",
